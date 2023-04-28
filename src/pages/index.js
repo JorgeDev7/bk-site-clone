@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Sigmar_One, Roboto } from 'next/font/google'
+import Layout from '@/layout/Layout';
 
 const sigmar = Sigmar_One({
   weight: '400',
@@ -15,6 +16,6 @@ const roboto = Roboto({
 
 export default function Home() {
   return (
-    <></>
+    <Layout></Layout>
   )
 }
