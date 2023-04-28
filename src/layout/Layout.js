@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Navegacion from "@/components/Navegacion"
 
 export default function Layout({ children, pagina }) {
     return (
@@ -10,7 +11,7 @@ export default function Layout({ children, pagina }) {
             </Head>
 
             <header>
-                {/* navegacion */}
+                <Navegacion />
             </header>
 
             <main>
