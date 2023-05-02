@@ -1,9 +1,15 @@
 import Image from 'next/image'
-import { Roboto } from 'next/font/google'
+import { Roboto, Caveat } from 'next/font/google'
 import Layout from '@/layout/Layout';
 
 const roboto = Roboto({
   weight: '400',
+  style: 'normal',
+  subsets: ['latin']
+})
+
+const caveat = Caveat({
+  weight: '500',
   style: 'normal',
   subsets: ['latin']
 })
