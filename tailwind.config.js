@@ -16,6 +16,11 @@ module.exports = {
         'grisOscuro': '#3a3a3a',
         'marron': '#905432',
         'naranja': '#e8512e'
+      },
+      fontFamily: {
+        'roboto': 'var(--font-roboto)',
+        'dancing': 'var(--font-dancing)',
+        'mont': 'var(--font-mont)',
       }
     },
   },
