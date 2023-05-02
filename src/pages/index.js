@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Roboto, Caveat } from 'next/font/google'
+import { Roboto, Caveat, Montserrat } from 'next/font/google'
 import Layout from '@/layout/Layout';
 
 const roboto = Roboto({
@@ -14,13 +14,19 @@ const caveat = Caveat({
   subsets: ['latin']
 })
 
+const montserrat = Montserrat({
+  weight: '900',
+  style: 'normal',
+  subsets: ['latin']
+})
+
 export default function Home() {
 
   return (
     <Layout
       pagina="Home"
     >
-      <h1>Es hora del <span>desayuno</span></h1>
+      <h1 className='text-amarillo'>Es hora del <span>desayuno</span></h1>
       <Image
         width={600}
         height={700}
