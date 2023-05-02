@@ -4,17 +4,20 @@ import Layout from '@/layout/Layout';
 
 const roboto = Roboto({
   subsets: ['latin'],
-  variable: '--font-roboto'
+  variable: '--font-roboto',
+  weight: '400'
 })
 
 const dancingScript = Dancing_Script({
   subsets: ['latin'],
-  variable: '--font-dancing'
+  variable: '--font-dancing',
+  weight: '600'
 })
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-mont'
+  variable: '--font-mont',
+  weight: '400'
 })
 
 export default function Home() {
