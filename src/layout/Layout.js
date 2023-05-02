@@ -111,7 +111,7 @@ export default function Layout({ children, pagina }) {
                 </div>
             </header >
 
-            <main>
+            <main className="container px-5 mx-auto">
                 {children}
             </main>
 
