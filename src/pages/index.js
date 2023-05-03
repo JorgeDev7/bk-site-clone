@@ -30,7 +30,7 @@ export default function Home() {
         priority={true}
       />
 
-      <div className='border-y-2 border-y-grisOscuro border-dashed px-10 py-5 w-max md:w-[550px] mx-auto text-center'>
+      <div className='border-y-2 border-y-grisOscuro border-dashed px-10 py-5 w-full md:w-[550px] mx-auto text-center'>
         <h2 className={`${dancingScript.variable} font-dancing font-black text-grisOscuro text-3xl mb-4`}>Ordena a domicilio de</h2>
         <p className={`text-grisOscuro ${roboto.variable} font-roboto font-medium text-xl`}>7:00 am a 22:00 pm</p>
       </div>
