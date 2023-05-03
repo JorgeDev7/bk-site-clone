@@ -22,6 +22,9 @@ module.exports = {
         'dancing': 'var(--font-dancing)',
         'sans': 'var(--font-mont)',
         'poppins': 'var(--font-pop)',
+      },
+      boxShadow: {
+        'menu': 'rgba(0, 0, 0, 0.15) 5px 5px 1px'
       }
     },
   },
