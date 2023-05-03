@@ -5,13 +5,13 @@ import { Poppins, Montserrat } from "next/font/google";
 import { useState } from "react";
 
 const poppins = Poppins({
-    weight: '900',
+    weight: '400',
     style: 'normal',
     subsets: ['latin']
 })
 
 const montserrat = Montserrat({
-    weight: '400',
+    weight: ['400', '900'],
     variable: '--font-mont',
     subsets: ['latin']
 })
