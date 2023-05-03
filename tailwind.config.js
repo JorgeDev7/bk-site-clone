@@ -20,7 +20,7 @@ module.exports = {
       fontFamily: {
         'roboto': 'var(--font-roboto)',
         'dancing': 'var(--font-dancing)',
-        'mont': 'var(--font-mont)',
+        'sans': 'var(--font-mont)',
       }
     },
   },
