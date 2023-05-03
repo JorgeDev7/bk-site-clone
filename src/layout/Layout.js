@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const poppins = Poppins({
     weight: '400',
-    style: 'normal',
+    variable: '--font-pop',
     subsets: ['latin']
 })
 
@@ -61,31 +61,31 @@ export default function Layout({ children, pagina }) {
                         <ul className="space-y-3 lg:space-y-0 lg:flex items-center gap-6">
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
                                 <a
-                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins} font-black text-xl uppercase`}
+                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/menu"
                                 >Menú</a>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
                                 <a
-                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins} font-black text-xl uppercase`}
+                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/ubicaciones"
                                 >Ubicaciones</a>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
                                 <a
-                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins} font-black text-xl uppercase`}
+                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/nuevo"
                                 >Lo nuevo</a>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
                                 <a
-                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins} font-black text-xl uppercase`}
+                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/ordenes"
                                 >Mis Órdenes</a>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
                                 <a
-                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins} font-black text-xl uppercase`}
+                                    className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/direcciones"
                                 >Mis direcciones</a>
                             </li>
