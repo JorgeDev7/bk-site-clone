@@ -32,6 +32,7 @@ export default function Layout({ children, pagina }) {
         <>
             <Head>
                 <meta name="application-name" content="Burger King" />
+                <meta name="theme-color" content="#fff" />
                 <title>Burger King - {pagina}</title>
                 <link rel="icon" type="image/png" href="/assets/images/bk-logo.png" />
             </Head>
