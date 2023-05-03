@@ -19,10 +19,15 @@ const montserrat = Montserrat({
 export default function Layout({ children, pagina }) {
 
     const [active, setActive] = useState(false);
+    const [open, setOpen] = useState(false)
     const router = useRouter();
 
     const handleActive = () => {
         setActive(!active);
+    }
+
+    const handleDropdown = () => {
+        setOpen(!open);
     }
 
     // Date
@@ -37,7 +42,7 @@ export default function Layout({ children, pagina }) {
                 <link rel="icon" type="image/png" href="/assets/images/bk-logo.png" />
             </Head>
 
-            <header className={`bg-white shadow-sm py-5 lg:py-2.5 ${active ? 'h-[542px]' : 'h-[105px]'} transition-[height] duration-500 lg:h-auto ${montserrat.variable} font-sans`}>
+            <header className={`bg-white shadow-sm py-5 lg:py-2.5 ${active ? 'h-auto' : 'h-[105px]'} transition-[height] duration-500 lg:h-auto ${montserrat.variable} font-sans`}>
                 <div className="container px-5 mx-auto lg:flex justify-around gap-5 items-center">
                     <div
                         className="flex justify-between items-center"
@@ -60,11 +65,83 @@ export default function Layout({ children, pagina }) {
 
                     <nav className={`mt-10 lg:mt-0 ${active ? 'opacity-100 pointer-events-auto delay-200' : 'opacity-0 pointer-events-none'} transition-opacity lg:opacity-100 lg:pointer-events-auto`}>
                         <ul className="space-y-3 lg:space-y-0 lg:flex items-center gap-6">
-                            <li className="border-b pb-2 lg:pb-0 lg:border-0">
+                            <li className="border-b pb-2 lg:pb-0 lg:border-0 lg:relative">
                                 <a
                                     className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                    href="/menu"
+                                    href="#"
+                                    onClick={handleDropdown}
                                 >Menú</a>
+
+                                <div className={`border-t lg:border-t-0 ${open ? 'block' : 'hidden'} lg:absolute lg:-left-4 lg:top-11 lg:bg-white ml-5 lg:ml-0 lg:shadow-menu`}>
+                                    <ul className="lg:pl-0 lg:my-3">
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Croissant</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >BK muffin</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >BK chapín</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Panqueques</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Extras</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Bebidas</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Niños</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Postres</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Ensaladas</a>
+                                        </li>
+                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Pollo</a>
+                                        </li>
+                                        <li className="border-b last-of-type:border-b-0 pb-2 pt-2.5 last-of-type:pb-0 lg:pl-5 lg:pr-10 lg:py-2">
+                                            <a
+                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
+                                                href="/"
+                                            >Otros</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
                                 <a
