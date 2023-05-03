@@ -21,6 +21,7 @@ module.exports = {
         'roboto': 'var(--font-roboto)',
         'dancing': 'var(--font-dancing)',
         'sans': 'var(--font-mont)',
+        'poppins': 'var(--font-pop)',
       }
     },
   },
