@@ -36,7 +36,7 @@ export default function Layout({ children, pagina }) {
                 <link rel="icon" type="image/png" href="/assets/images/bk-logo.png" />
             </Head>
 
-            <header className={`bg-white shadow-sm py-5 lg:py-2.5 ${active ? 'h-[542px]' : 'h-[105px]'} transition-[height] duration-500 lg:h-auto ${montserrat.variable} font-mont`}>
+            <header className={`bg-white shadow-sm py-5 lg:py-2.5 ${active ? 'h-[542px]' : 'h-[105px]'} transition-[height] duration-500 lg:h-auto ${montserrat.variable} font-sans`}>
                 <div className="container px-5 mx-auto lg:flex justify-around gap-5 items-center">
                     <div
                         className="flex justify-between items-center"
@@ -111,11 +111,11 @@ export default function Layout({ children, pagina }) {
                 </div>
             </header >
 
-            <main className={`container px-5 mx-auto ${montserrat.variable} font-mont`}>
+            <main className={`container px-5 mx-auto ${montserrat.variable} font-sans`}>
                 {children}
             </main>
 
-            <footer className={`container px-5 mx-auto mt-16 text-center ${montserrat.variable} font-mont`}>
+            <footer className={`container px-5 mx-auto mt-16 text-center ${montserrat.variable} font-sans`}>
                 <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 md:gap-0">
                     <div className="mb-5 lg:flex items-center gap-5">
                         <Image
