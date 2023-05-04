@@ -283,6 +283,7 @@ export default function Layout({ children, pagina }) {
                             alt="logo BK"
                             className="cursor-pointer mx-auto"
                             priority={true}
+                            onClick={() => router.push('/')}
                         />
                     </div>
                     <p className="text-grisOscuro">© Burger King Guatemala {year.getFullYear()}</p>
