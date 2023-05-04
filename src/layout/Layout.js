@@ -24,6 +24,9 @@ export default function Layout({ children, pagina }) {
     const [open, setOpen] = useState(false);
     // State Search Component
     const [searchOpen, setSearchOpen] = useState(false);
+    // State Carrito de compras
+    const [openCarrito, setOpenCarrito] = useState(false);
+
     const router = useRouter();
 
     const handleActive = () => {
@@ -36,6 +39,10 @@ export default function Layout({ children, pagina }) {
 
     const handleSearch = () => {
         setSearchOpen(!searchOpen);
+    }
+
+    const handleCarrito = () => {
+        setOpenCarrito(!openCarrito);
     }
 
     // Date
@@ -201,15 +208,63 @@ export default function Layout({ children, pagina }) {
 
                     <div className={`mt-10 lg:mt-0 ${active ? 'opacity-100 pointer-events-auto delay-200' : 'opacity-0 pointer-events-none'} transition-opacity lg:opacity-100 lg:text-center lg:pointer-events-auto`}>
                         <p className="text-amarillo hover:underline cursor-pointer pb-5 lg:pb-2">Ingresar/Registro</p>
-                        <div className="bg-[#f9f9f9] rounded-full border border-[#ececec] max-lg:relative py-1 lg:py-0 lg:flex lg:gap-3">
+                        <div className="bg-[#f9f9f9] rounded-full border border-[#ececec] max-lg:relative py-1 lg:py-0 lg:flex lg:gap-3 relative">
                             <div className="flex items-center pl-3 space-x-2">
                                 <p className={`text-[#595f65] text-sm ${montserrat} font-medium hover:underline hover:text-rojo transition-colors cursor-pointer`}>0 artículos</p>
                                 <p className={`text-[#595f65] text-sm border-s pl-2 ${montserrat} font-medium hover:underline hover:text-rojo transition-colors cursor-pointer`}>Q0.00</p>
                             </div>
-                            <div className="max-lg:absolute -top-1 right-0 bg-amarillo rounded-full p-2.5 flex items-center justify-center cursor-pointer">
-                                <i className='bx bxs-shopping-bag text-white' ></i>
+                            <div className="max-lg:absolute -top-1 right-0">
+                                <div className="relative">
+                                    <div
+                                        className="bg-amarillo rounded-full p-2.5 flex items-center justify-center cursor-pointer"
+                                        onClick={handleCarrito}
+                                    >
+                                        <i className='bx bxs-shopping-bag text-white' ></i>
+                                    </div>
+                                    <div className={`absolute right-0 bg-white shadow-menu border-t-4 border-amarillo after:block after:absolute after:border-l-[10px] after:border-l-transparent after:border-b-[10px] after:border-b-amarillo after:border-r-[10px] after:border-r-transparent after:border-solid after:w-0 after:h-0 after:-top-3 after:right-2 lg:after:left-auto lg:after:right-2 p-5 ${openCarrito ? 'flex' : 'hidden'} flex-col gap-10 mt-3 w-max max-md:hidden`}>
+                                        <table>
+                                            <tbody>
+                                                {/* <tr className="flex gap-3 items-center">
+                                                    <td>
+                                                        <Image
+                                                            width={50}
+                                                            height={50}
+                                                            src="/assets/images/Croissants/salchicha.jpg"
+                                                            alt="Croissant salchicha"
+                                                        />
+                                                    </td>
+                                                    <td>
+                                                        <p className="text-grisOscuro uppercase text-xs font-bold">Croissan'wich de salchicha</p>
+                                                    </td>
+                                                    <td>
+                                                        <p className="text-grisOscuro text-xs">Q19.00</p>
+                                                    </td>
+                                                    <td>
+                                                        <div className="bg-amarillo flex justify-center items-center p-1 rounded-full cursor-pointer">
+                                                            <i className='bx bx-x text-white'></i>
+                                                        </div>
+                                                    </td>
+                                                </tr> */}
+                                            </tbody>
+                                        </table>
+                                        <div className="self-end flex gap-2 items-center">
+                                            <button
+                                                type="button"
+                                                className="bg-[#c1cad3] py-2 px-4 text-white text-sm uppercase rounded"
+                                            >Ver Carrito</button>
+                                            <button
+                                                type="button"
+                                                className="bg-amarillo py-2 px-4 text-white text-sm uppercase rounded"
+                                            >Comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <button
+                            type="button"
+                            className="bg-amarillo py-2 px-4 text-white text-sm uppercase rounded mt-5 md:hidden"
+                        >Ver Carrito</button>
                     </div>
                 </div>
             </header >
