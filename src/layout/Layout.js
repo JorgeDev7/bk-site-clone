@@ -18,8 +18,12 @@ const montserrat = Montserrat({
 
 export default function Layout({ children, pagina }) {
 
+    // State Responsive Menu
     const [active, setActive] = useState(false);
-    const [open, setOpen] = useState(false)
+    // State Dropdown menu
+    const [open, setOpen] = useState(false);
+    // State Search Component
+    const [searchOpen, setSearchOpen] = useState(false);
     const router = useRouter();
 
     const handleActive = () => {
@@ -28,6 +32,10 @@ export default function Layout({ children, pagina }) {
 
     const handleDropdown = () => {
         setOpen(!open);
+    }
+
+    const handleSearch = () => {
+        setSearchOpen(!searchOpen);
     }
 
     // Date
@@ -168,8 +176,25 @@ export default function Layout({ children, pagina }) {
                                 >Mis direcciones</a>
                             </li>
 
-                            <li className="border-b lg:border-0">
-                                <i className='bx bx-search-alt text-3xl text-amarillo hover:text-rojo transition-colors cursor-pointer lg:border-l-2 lg:pl-4' ></i>
+                            <li className="border-b lg:border-0 lg:relative">
+                                <i
+                                    className='bx bx-search-alt text-3xl text-amarillo hover:text-rojo transition-colors cursor-pointer lg:border-l-2 lg:pl-4'
+                                    onClick={handleSearch}
+                                ></i>
+
+                                <div className="lg:absolute lg:-left-80 lg:top-12">
+                                    <form className={`w-max p-5 ${searchOpen ? 'flex' : 'hidden'} gap-5 items-center relative bg-white shadow-menu border-t-4 border-amarillo after:block after:absolute after:border-l-[10px] after:border-l-transparent after:border-b-[10px] after:border-b-amarillo after:border-r-[10px] after:border-r-transparent after:border-solid after:w-0 after:h-0 after:-top-3 after:left-1 lg:after:left-auto lg:after:right-2`}>
+                                        <input
+                                            type="search"
+                                            className="bg-[#f1ede4] placeholder:text-[#aaa] px-4 py-2 shadow-menu focus-visible:outline-0"
+                                            placeholder="Buscar"
+                                        />
+                                        <button
+                                            type="button"
+                                            className="bg-amarillo px-4 py-2 rounded-md text-white self-end"
+                                        >Buscar</button>
+                                    </form>
+                                </div>
                             </li>
                         </ul>
                     </nav>
