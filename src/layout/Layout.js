@@ -92,7 +92,7 @@ export default function Layout({ children, pagina }) {
                                         <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
                                             <a
                                                 className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/"
+                                                href="/croissants"
                                             >Croissant</a>
                                         </li>
                                         <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
