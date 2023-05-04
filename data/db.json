@@ -1,132 +1,164 @@
 {
     "productos": [
         {
-            "id": 1,
-            "nombre": "Desayuno Chapin con jamon",
-            "imagen": "jamon",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "chapin"
+            "producto": {
+                "id": 1,
+                "nombre": "Desayuno Chapin con jamon",
+                "imagen": "jamon",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "chapin"
+            }
         },
         {
-            "id": 2,
-            "nombre": "Desayuno Chapin con salchicha",
-            "imagen": "salchicha",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "chapin"
+            "producto": {
+                "id": 2,
+                "nombre": "Desayuno Chapin con salchicha",
+                "imagen": "salchicha",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "chapin"
+            }
         },
         {
-            "id": 3,
-            "nombre": "Desayuno Chapin con tocino",
-            "imagen": "tocino",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "chapin"
+            "producto": {
+                "id": 3,
+                "nombre": "Desayuno Chapin con tocino",
+                "imagen": "tocino",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "chapin"
+            }
         },
         {
-            "id": 4,
-            "nombre": "Desayuno Chapin Tradicional",
-            "imagen": "tradicional",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "chapin"
+            "producto": {
+                "id": 4,
+                "nombre": "Desayuno Chapin Tradicional",
+                "imagen": "tradicional",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "chapin"
+            }
         },
         {
-            "id": 5,
-            "nombre": "Croissant con jamon",
-            "imagen": "jamon",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "croissants"
+            "producto": {
+                "id": 5,
+                "nombre": "Croissant con jamon",
+                "imagen": "jamon",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "croissants"
+            }
         },
         {
-            "id": 6,
-            "nombre": "Croissant con queso",
-            "imagen": "queso",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "croissants"
+            "producto": {
+                "id": 6,
+                "nombre": "Croissant con queso",
+                "imagen": "queso",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "croissants"
+            }
         },
         {
-            "id": 7,
-            "nombre": "Croissant con salchicha",
-            "imagen": "salchicha",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "croissants"
+            "producto": {
+                "id": 7,
+                "nombre": "Croissant con salchicha",
+                "imagen": "salchicha",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "croissants"
+            }
         },
         {
-            "id": 8,
-            "nombre": "Croissant con tocino",
-            "imagen": "tocino",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "croissants"
+            "producto": {
+                "id": 8,
+                "nombre": "Croissant con tocino",
+                "imagen": "tocino",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "croissants"
+            }
         },
         {
-            "id": 9,
-            "nombre": "Muffin con jamon",
-            "imagen": "jamon",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "muffins"
+            "producto": {
+                "id": 9,
+                "nombre": "Muffin con jamon",
+                "imagen": "jamon",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "muffins"
+            }
         },
         {
-            "id": 10,
-            "nombre": "Muffin con queso",
-            "imagen": "queso",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "muffins"
+            "producto": {
+                "id": 10,
+                "nombre": "Muffin con queso",
+                "imagen": "queso",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "muffins"
+            }
         },
         {
-            "id": 11,
-            "nombre": "Muffin con salchicha",
-            "imagen": "salchicha",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "muffins"
+            "producto": {
+                "id": 11,
+                "nombre": "Muffin con salchicha",
+                "imagen": "salchicha",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "muffins"
+            }
         },
         {
-            "id": 12,
-            "nombre": "Muffin con tocino",
-            "imagen": "tocino",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "muffins"
+            "producto": {
+                "id": 12,
+                "nombre": "Muffin con tocino",
+                "imagen": "tocino",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "muffins"
+            }
         },
         {
-            "id": 13,
-            "nombre": "Panqueques con jamon",
-            "imagen": "jamon",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "panqueques"
+            "producto": {
+                "id": 13,
+                "nombre": "Panqueques con jamon",
+                "imagen": "jamon",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "panqueques"
+            }
         },
         {
-            "id": 14,
-            "nombre": "Panqueques con salchicha",
-            "imagen": "salchicha",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "panqueques"
+            "producto": {
+                "id": 14,
+                "nombre": "Panqueques con salchicha",
+                "imagen": "salchicha",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "panqueques"
+            }
         },
         {
-            "id": 15,
-            "nombre": "Panqueques con tocino",
-            "imagen": "tocino",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "panqueques"
+            "producto": {
+                "id": 15,
+                "nombre": "Panqueques con tocino",
+                "imagen": "tocino",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "panqueques"
+            }
         },
         {
-            "id": 16,
-            "nombre": "Panqueque Tradicional",
-            "imagen": "jamon",
-            "descripcion": "",
-            "precio": 0,
-            "categoria": "panqueques"
+            "producto": {
+                "id": 16,
+                "nombre": "Panqueque Tradicional",
+                "imagen": "jamon",
+                "descripcion": "",
+                "precio": 0,
+                "categoria": "panqueques"
+            }
         }
     ]
 }
