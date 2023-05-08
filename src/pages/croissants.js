@@ -21,6 +21,7 @@ export default function Croissants() {
                         src={`/assets/images/Croissants/${cro.producto.imagen}.jpg`}
                         alt={`imagen croissant ${cro.producto.nombre}`}
                         onClick={() => router.push(`/producto/${cro.producto.id}`)}
+                        priority={true}
                     />
                 ))}
             </div>
