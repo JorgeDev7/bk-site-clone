@@ -8,7 +8,7 @@ export default function Muffins() {
 
     return (
         <Layout
-            pagina="Croissants"
+            pagina="Muffins"
         >
             <div className="container px-5 mx-auto grid justify-center md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
                 {muffins?.map(cro => (
