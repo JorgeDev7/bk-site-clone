@@ -154,7 +154,7 @@
             "producto": {
                 "id": 16,
                 "nombre": "Panqueque Tradicional",
-                "imagen": "jamon",
+                "imagen": "tradicional",
                 "descripcion": "Tres deliciosos y calientitos panqueques con miel de maple y mantequilla.",
                 "precio": 18.00,
                 "categoria": "panqueques"
