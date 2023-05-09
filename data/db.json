@@ -5,8 +5,8 @@
                 "id": 1,
                 "nombre": "Desayuno Chapin con jamon",
                 "imagen": "jamon",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Huevos revueltos acompañados de frijolitos volteados, con jamón, pan de croissant, dos tortillas y dos deliciosos platanitos, disfrútalo con crema y chirmol.",
+                "precio": 32.90,
                 "categoria": "chapin"
             }
         },
@@ -15,8 +15,8 @@
                 "id": 2,
                 "nombre": "Desayuno Chapin con salchicha",
                 "imagen": "salchicha",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Huevos revueltos acompañados de frijolitos volteados, con salchicha, pan de croissant, dos tortillas y dos deliciosos platanitos, disfrútalo con crema y chirmol.",
+                "precio": 32.90,
                 "categoria": "chapin"
             }
         },
@@ -25,8 +25,8 @@
                 "id": 3,
                 "nombre": "Desayuno Chapin con tocino",
                 "imagen": "tocino",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Huevos revueltos acompañados de frijolitos volteados, con tocino, pan de croissant, dos tortillas y dos deliciosos platanitos, disfrútalo con crema y chirmol.",
+                "precio": 32.90,
                 "categoria": "chapin"
             }
         },
@@ -35,8 +35,8 @@
                 "id": 4,
                 "nombre": "Desayuno Chapin Tradicional",
                 "imagen": "tradicional",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Huevos revueltos acompañados de frijolitos volteados, pan de croissant, dos tortillas y dos deliciosos platanitos, disfrútalo con crema y chirmol.",
+                "precio": 27.90,
                 "categoria": "chapin"
             }
         },
@@ -45,8 +45,8 @@
                 "id": 5,
                 "nombre": "Croissant con jamon",
                 "imagen": "jamon",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Para empezar el día con mucha energía, tenemos lo mejor, un desayuno completo dentro de un delicioso croissant fresco y doradito, preparado con jamón de la mejor calidad, huevo y una lasca de queso americano derretido.",
+                "precio": 19.00,
                 "categoria": "croissants"
             }
         },
@@ -55,8 +55,8 @@
                 "id": 6,
                 "nombre": "Croissant con queso",
                 "imagen": "queso",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Para empezar el día con mucha energía, tenemos lo mejor, un desayuno completo dentro de un delicioso croissant fresco y doradito, preparado con huevo y una lasca de queso americano derretido.",
+                "precio": 19.00,
                 "categoria": "croissants"
             }
         },
@@ -65,8 +65,8 @@
                 "id": 7,
                 "nombre": "Croissant con salchicha",
                 "imagen": "salchicha",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Cada mañana disfruta de nuestra receta especial hecha con una deliciosa torta de salchicha, huevos esponjosos y queso americano derretido sobre un rico croissant bien doradito.",
+                "precio": 19.00,
                 "categoria": "croissants"
             }
         },
@@ -75,8 +75,8 @@
                 "id": 8,
                 "nombre": "Croissant con tocino",
                 "imagen": "tocino",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Una de las mejores opciones para un gran desayuno que te dejará satisfecho gracias a sus deliciosos ingredientes: huevo revuelto, ricas tiras de tocino y queso americano derretido, todo dentro de un delicioso croissant.",
+                "precio": 19.00,
                 "categoria": "croissants"
             }
         },
@@ -85,8 +85,8 @@
                 "id": 9,
                 "nombre": "Muffin con jamon",
                 "imagen": "jamon",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Un desayuno muy completo para aquellos que les gusta consentirse desde la mañana, huevo, queso americano derretido y deliciosas lascas de jamón, dentro de nuestro delicioso pan Muffin.",
+                "precio": 18.00,
                 "categoria": "muffins"
             }
         },
@@ -95,8 +95,8 @@
                 "id": 10,
                 "nombre": "Muffin con queso",
                 "imagen": "queso",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Deliciosa combinación de huevo y queso americano derretido en un pan especial Muffin.",
+                "precio": 17.00,
                 "categoria": "muffins"
             }
         },
@@ -105,8 +105,8 @@
                 "id": 11,
                 "nombre": "Muffin con salchicha",
                 "imagen": "salchicha",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Deliciosa combinación de salchicha, huevo y queso americano derretido en un pan especial Muffin.",
+                "precio": 18.00,
                 "categoria": "muffins"
             }
         },
@@ -115,8 +115,8 @@
                 "id": 12,
                 "nombre": "Muffin con tocino",
                 "imagen": "tocino",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Un desayuno muy completo para aquellos que les gusta consentirse desde la mañana, huevo, queso americano derretido y deliciosas tiras de tocino, dentro de nuestro delicioso pan Muffin.",
+                "precio": 18.00,
                 "categoria": "muffins"
             }
         },
@@ -125,8 +125,8 @@
                 "id": 13,
                 "nombre": "Panqueques con jamon",
                 "imagen": "jamon",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Dos deliciosos y calientitos panqueques con miel de maple y mantequilla, acompañados de huevo y un rico jamón de alta calidad.",
+                "precio": 24.00,
                 "categoria": "panqueques"
             }
         },
@@ -135,8 +135,8 @@
                 "id": 14,
                 "nombre": "Panqueques con salchicha",
                 "imagen": "salchicha",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Dos deliciosos y calientitos panqueques con miel de maple y mantequilla, acompañados de huevo y una deliciosa torta de salchicha.",
+                "precio": 24.00,
                 "categoria": "panqueques"
             }
         },
@@ -145,8 +145,8 @@
                 "id": 15,
                 "nombre": "Panqueques con tocino",
                 "imagen": "tocino",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Dos deliciosos y calientitos panqueques con miel de maple y mantequilla, acompañados de huevo y deliciosas y crujientes tiras de tocino.",
+                "precio": 24.00,
                 "categoria": "panqueques"
             }
         },
@@ -155,8 +155,8 @@
                 "id": 16,
                 "nombre": "Panqueque Tradicional",
                 "imagen": "jamon",
-                "descripcion": "",
-                "precio": 0,
+                "descripcion": "Tres deliciosos y calientitos panqueques con miel de maple y mantequilla.",
+                "precio": 18.00,
                 "categoria": "panqueques"
             }
         }
