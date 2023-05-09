@@ -16,6 +16,7 @@ export default function Producto({ datos }) {
             alt={`imagen croissant ${nombre}`}
             onClick={() => router.push(`/producto/${id}`)}
             priority={true}
+            className="cursor-pointer"
         />
     )
 }
