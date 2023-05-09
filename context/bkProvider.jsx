@@ -8,6 +8,7 @@ const BkProvider = ({ children }) => {
     const [croissants, setCroissants] = useState([]);
     const [muffins, setMuffins] = useState([]);
     const [chapin, setChapin] = useState([]);
+    const [panqueques, setPanqueques] = useState([]);
 
     const obtenerCroissant = async () => {
         const { data } = await axios('http://localhost:4000/productos?producto.categoria=croissants');
@@ -36,12 +37,22 @@ const BkProvider = ({ children }) => {
         obtenerChapin();
     }, [])
 
+    const obtenerPanqueques = async () => {
+        const { data } = await axios('http://localhost:4000/productos?producto.categoria=panqueques');
+        setPanqueques(data);
+    }
+
+    useEffect(() => {
+        obtenerPanqueques();
+    }, [])
+
     return (
         <BkContext.Provider
             value={{
                 croissants,
                 muffins,
                 chapin,
+                panqueques,
             }}
         >
             {children}
