@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 export default function Producto({ datos }) {
 
-    const { imagen, nombre, id } = datos;
+    const { imagen, nombre, id, categoria } = datos;
 
     const router = useRouter();
 
@@ -12,8 +12,8 @@ export default function Producto({ datos }) {
             key={datos.id}
             width={300}
             height={400}
-            src={`/assets/images/Croissants/${imagen}.jpg`}
-            alt={`imagen croissant ${nombre}`}
+            src={`/assets/images/${categoria}/${imagen}.jpg`}
+            alt={`producto ${nombre}`}
             onClick={() => router.push(`/producto/${id}`)}
             priority={true}
             className="cursor-pointer"
