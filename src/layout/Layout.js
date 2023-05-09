@@ -61,7 +61,6 @@ export default function Layout({ children, pagina }) {
                 <div className="container px-5 mx-auto lg:flex justify-around gap-5 items-center">
                     <div
                         className="flex justify-between items-center"
-                        onClick={() => router.push('/')}
                     >
                         <Image
                             width={65}
@@ -70,6 +69,7 @@ export default function Layout({ children, pagina }) {
                             alt="logo BK"
                             className="cursor-pointer"
                             priority={true}
+                            onClick={() => router.push('/')}
                         />
 
                         <i
