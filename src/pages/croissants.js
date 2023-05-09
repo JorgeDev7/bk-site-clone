@@ -10,7 +10,7 @@ export default function Croissants() {
         <Layout
             pagina="Croissants"
         >
-            <div className="container px-5 mx-auto grid grid-cols-4 gap-5 mt-10">
+            <div className="container px-5 mx-auto grid justify-center md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
                 {croissants?.map(cro => (
                     <Producto
                         key={cro.producto.id}
