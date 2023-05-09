@@ -15,7 +15,7 @@ export default function croissant({ data }) {
                     type="button"
                     className="bg-white px-3 py-1 flex items-center text-amarillo cursor-pointer rounded"
                 ><i className='bx bx-chevron-left text-amarillo text-4xl'></i> Regresar</button>
-                <div className="mt-5 flex flex-col gap-5">
+                <div className="mt-5 flex flex-col lg:grid lg:grid-cols-2 gap-5">
                     <Image
                         width={500}
                         height={600}
@@ -34,14 +34,14 @@ export default function croissant({ data }) {
                                 <div className="border-e border-t border-b rounded-e border-gray-500 px-2 py-1 text-naranja text-2xl w-10 cursor-pointer"><i className='bx bx-plus' ></i></div>
                             </div>
 
-                            <div className="bg-white p-2">
+                            <div className="bg-white p-2 rounded">
                                 <p className="text-marron">Q{precio.toFixed(2)}</p>
                             </div>
                         </div>
 
                         <button
                             type="button"
-                            className=" bg-[#0074ba] hover:bg-blue-700 transition-colors text-white py-2 px-4 w-full rounded"
+                            className=" bg-[#0074ba] hover:bg-blue-700 transition-colors text-white py-2 px-4 w-full xl:w-auto rounded"
                         ><i className='bx bxs-shopping-bag' ></i> Agregar al carrito</button>
                     </div>
                 </div>
