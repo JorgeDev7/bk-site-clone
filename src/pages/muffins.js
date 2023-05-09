@@ -11,10 +11,10 @@ export default function Muffins() {
             pagina="Muffins"
         >
             <div className="container px-5 mx-auto grid justify-center md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
-                {muffins?.map(cro => (
+                {muffins?.map(muff => (
                     <Producto
-                        key={cro.producto.id}
-                        datos={cro.producto}
+                        key={muff.producto.id}
+                        datos={muff.producto}
                     />
                 ))}
             </div>
