@@ -1,10 +1,13 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import Layout from "@/layout/Layout"
 import axios from "axios"
 
 export default function croissant({ data }) {
 
     const { descripcion, imagen, precio, nombre } = data[0].producto;
+
+    const router = useRouter();
 
     return (
         <Layout
@@ -14,6 +17,7 @@ export default function croissant({ data }) {
                 <button
                     type="button"
                     className="bg-white px-3 py-1 flex items-center text-amarillo cursor-pointer rounded"
+                    onClick={() => router.push('/croissants')}
                 ><i className='bx bx-chevron-left text-amarillo text-4xl'></i> Regresar</button>
                 <div className="mt-5 flex flex-col lg:grid lg:grid-cols-2 gap-5">
                     <Image
