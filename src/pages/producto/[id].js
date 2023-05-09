@@ -10,34 +10,39 @@ export default function croissant({ data }) {
         <Layout
             pagina={nombre}
         >
-            <button
-                type="button"
-            ><i class='bx bx-chevron-left'></i> Regresar</button>
-            <div>
-                <Image
-                    width={400}
-                    height={500}
-                    src={`/assets/images/Croissants/${imagen}.jpg`}
-                    alt={`Imagen ${nombre}`}
-                    priority={true}
-                />
-                <div>
-                    <p>{descripcion}</p>
-
+            <div className="mt-10">
+                <button
+                    type="button"
+                    className="bg-white px-3 py-1 flex items-center text-amarillo cursor-pointer rounded"
+                ><i className='bx bx-chevron-left text-amarillo text-4xl'></i> Regresar</button>
+                <div className="mt-5 flex flex-col gap-5">
+                    <Image
+                        width={500}
+                        height={600}
+                        src={`/assets/images/Croissants/${imagen}.jpg`}
+                        alt={`Imagen ${nombre}`}
+                        priority={true}
+                        className="mx-auto"
+                    />
                     <div>
-                        <div>
-                            <div><i className='bx bx-minus' ></i></div>
-                            <div>1</div>
-                            <div><i className='bx bx-plus' ></i></div>
-                        </div>
+                        <p className="text-marron text-justify">{descripcion}</p>
 
-                        <div>
-                            <p>{precio}</p>
+                        <div className="flex items-center justify-between my-10">
+                            <div className="flex items-center rounded text-center">
+                                <div className="border-s border-t border-b rounded-s border-gray-500 px-2 py-1 text-naranja text-2xl w-10 cursor-pointer"><i className='bx bx-minus' ></i></div>
+                                <div className="border border-gray-500 px-2 py-1 text-2xl w-10">1</div>
+                                <div className="border-e border-t border-b rounded-e border-gray-500 px-2 py-1 text-naranja text-2xl w-10 cursor-pointer"><i className='bx bx-plus' ></i></div>
+                            </div>
+
+                            <div className="bg-white p-2">
+                                <p className="text-marron">Q{precio.toFixed(2)}</p>
+                            </div>
                         </div>
 
                         <button
                             type="button"
-                        ><i className='bx bxs-shopping-bag text-white' ></i> Agregar al carrito</button>
+                            className=" bg-[#0074ba] hover:bg-blue-700 transition-colors text-white py-2 px-4 w-full rounded"
+                        ><i className='bx bxs-shopping-bag' ></i> Agregar al carrito</button>
                     </div>
                 </div>
             </div>
