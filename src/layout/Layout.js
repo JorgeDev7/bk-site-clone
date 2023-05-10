@@ -1,8 +1,10 @@
 import Head from "next/head"
 import Image from "next/image"
+import Categoria from "@/components/Categoria";
 import { useRouter } from "next/router"
 import { Poppins, Montserrat } from "next/font/google";
 import { useState } from "react";
+import useBk from "../../hooks/useBk";
 
 const poppins = Poppins({
     weight: '400',
@@ -17,6 +19,8 @@ const montserrat = Montserrat({
 })
 
 export default function Layout({ children, pagina }) {
+
+    const { categorias } = useBk();
 
     // State Responsive Menu
     const [active, setActive] = useState(false);
@@ -47,6 +51,14 @@ export default function Layout({ children, pagina }) {
 
     // Date
     const year = new Date();
+
+    // generar ID
+    const generarId = () => {
+        const random = Math.random().toString(32).substring(2);
+        const number = Date.now().toString(32);
+
+        return random + number;
+    }
 
     return (
         <>
@@ -89,72 +101,12 @@ export default function Layout({ children, pagina }) {
 
                                 <div className={`border-t lg:border-t-0 ${open ? 'block' : 'hidden'} lg:absolute lg:-left-4 lg:top-11 lg:bg-white ml-5 lg:ml-0 lg:shadow-menu`}>
                                     <ul className="lg:pl-0 lg:my-3">
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/croissants"
-                                            >Croissant</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/muffins"
-                                            >BK muffin</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/chapin"
-                                            >BK chapín</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/panqueques"
-                                            >Panqueques</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/"
-                                            >Extras</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/"
-                                            >Bebidas</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/"
-                                            >Niños</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/"
-                                            >Postres</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/"
-                                            >Ensaladas</a>
-                                        </li>
-                                        <li className="border-b pb-2 pt-2.5 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/"
-                                            >Pollo</a>
-                                        </li>
-                                        <li className="border-b last-of-type:border-b-0 pb-2 pt-2.5 last-of-type:pb-0 lg:pl-5 lg:pr-10 lg:py-2">
-                                            <a
-                                                className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
-                                                href="/"
-                                            >Otros</a>
-                                        </li>
+                                        {categorias?.map(cat => (
+                                            <Categoria
+                                                key={generarId()}
+                                                nombre={cat}
+                                            />
+                                        ))}
                                     </ul>
                                 </div>
                             </li>
