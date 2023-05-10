@@ -163,59 +163,37 @@
     ],
     "categorias": [
         {
-            "categoria": {
-                "nombre": "Croissant"
-            }
+            "categoria": "Croissant"
         },
         {
-            "categoria": {
-                "nombre": "Bk muffin"
-            }
+            "categoria": "Bk muffin"
         },
         {
-            "categoria": {
-                "nombre": "Bk chapin"
-            }
+            "categoria": "Bk chapin"
         },
         {
-            "categoria": {
-                "nombre": "Panqueques"
-            }
+            "categoria": "Panqueques"
         },
         {
-            "categoria": {
-                "nombre": "Extras"
-            }
+            "categoria": "Extras"
         },
         {
-            "categoria": {
-                "nombre": "Bebidas"
-            }
+            "categoria": "Bebidas"
         },
         {
-            "categoria": {
-                "nombre": "Niños"
-            }
+            "categoria": "Niños"
         },
         {
-            "categoria": {
-                "nombre": "Postres"
-            }
+            "categoria": "Postres"
         },
         {
-            "categoria": {
-                "nombre": "Ensaladas"
-            }
+            "categoria": "Ensaladas"
         },
         {
-            "categoria": {
-                "nombre": "Pollo"
-            }
+            "categoria": "Pollo"
         },
         {
-            "categoria": {
-                "nombre": "Otros"
-            }
+            "categoria": "Otros"
         }
     ]
 }
