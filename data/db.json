@@ -160,5 +160,62 @@
                 "categoria": "panqueques"
             }
         }
+    ],
+    "categorias": [
+        {
+            "categoria": {
+                "nombre": "Croissant"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Bk muffin"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Bk chapin"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Panqueques"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Extras"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Bebidas"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Niños"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Postres"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Ensaladas"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Pollo"
+            }
+        },
+        {
+            "categoria": {
+                "nombre": "Otros"
+            }
+        }
     ]
 }
