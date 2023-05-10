@@ -163,37 +163,48 @@
     ],
     "categorias": [
         {
-            "categoria": "Croissant"
+            "categoria": "Croissant",
+            "url": "croissants"
         },
         {
-            "categoria": "Bk muffin"
+            "categoria": "Bk muffin",
+            "url": "muffins"
         },
         {
-            "categoria": "Bk chapin"
+            "categoria": "Bk chapin",
+            "url": "chapin"
         },
         {
-            "categoria": "Panqueques"
+            "categoria": "Panqueques",
+            "url": "panqueques"
         },
         {
-            "categoria": "Extras"
+            "categoria": "Extras",
+            "url": "extras"
         },
         {
-            "categoria": "Bebidas"
+            "categoria": "Bebidas",
+            "url": "bebidas"
         },
         {
-            "categoria": "Niños"
+            "categoria": "Niños",
+            "url": "ninos"
         },
         {
-            "categoria": "Postres"
+            "categoria": "Postres",
+            "url": "postres"
         },
         {
-            "categoria": "Ensaladas"
+            "categoria": "Ensaladas",
+            "url": "ensaladas"
         },
         {
-            "categoria": "Pollo"
+            "categoria": "Pollo",
+            "url": "pollo"
         },
         {
-            "categoria": "Otros"
+            "categoria": "Otros",
+            "url": "otros"
         }
     ]
 }
