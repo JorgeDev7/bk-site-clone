@@ -12,7 +12,7 @@ export default function Producto({ datos }) {
             key={datos.id}
             width={300}
             height={400}
-            src={`/assets/images/${categoria}/${imagen}.jpg`}
+            src={`/assets/images/${categoria}/${imagen}.webp`}
             alt={`producto ${nombre}`}
             onClick={() => router.push(`/producto/${id}`)}
             priority={true}
