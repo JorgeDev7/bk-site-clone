@@ -11,6 +11,7 @@ const BkProvider = ({ children }) => {
     const [chapin, setChapin] = useState([]);
     const [panqueques, setPanqueques] = useState([]);
     const [extras, setExtras] = useState([]);
+    const [bebidas, setBebidas] = useState([]);
 
     //State para categorias
     const [categorias, setCategorias] = useState([]);
@@ -60,6 +61,15 @@ const BkProvider = ({ children }) => {
         obtenerExtras();
     }, [])
 
+    const obtenerBebidas = async () => {
+        const { data } = await axios('http://localhost:4000/productos?producto.categoria=bebidas');
+        setBebidas(data);
+    }
+
+    useEffect(() => {
+        obtenerBebidas();
+    }, [])
+
 
     // Funciones Categorias
     const obtenerCategorias = async () => {
@@ -79,6 +89,7 @@ const BkProvider = ({ children }) => {
                 chapin,
                 panqueques,
                 extras,
+                bebidas,
                 categorias
             }}
         >
