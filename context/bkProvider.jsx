@@ -5,10 +5,12 @@ const BkContext = createContext();
 
 const BkProvider = ({ children }) => {
 
+    // States productos
     const [croissants, setCroissants] = useState([]);
     const [muffins, setMuffins] = useState([]);
     const [chapin, setChapin] = useState([]);
     const [panqueques, setPanqueques] = useState([]);
+    const [extras, setExtras] = useState([]);
 
     //State para categorias
     const [categorias, setCategorias] = useState([]);
@@ -49,6 +51,15 @@ const BkProvider = ({ children }) => {
         obtenerPanqueques();
     }, [])
 
+    const obtenerExtras = async () => {
+        const { data } = await axios('http://localhost:4000/productos?producto.categoria=extras');
+        setExtras(data);
+    }
+
+    useEffect(() => {
+        obtenerExtras();
+    }, [])
+
 
     // Funciones Categorias
     const obtenerCategorias = async () => {
@@ -67,6 +78,7 @@ const BkProvider = ({ children }) => {
                 muffins,
                 chapin,
                 panqueques,
+                extras,
                 categorias
             }}
         >
