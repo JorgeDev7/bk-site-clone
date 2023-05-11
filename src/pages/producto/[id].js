@@ -23,7 +23,7 @@ export default function croissant({ data }) {
                     <Image
                         width={500}
                         height={600}
-                        src={`/assets/images/${categoria}/${imagen}.jpg`}
+                        src={`/assets/images/${categoria}/${imagen}.webp`}
                         alt={`Imagen ${nombre}`}
                         priority={true}
                         className="mx-auto"
