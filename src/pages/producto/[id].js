@@ -17,7 +17,7 @@ export default function croissant({ data }) {
                 <button
                     type="button"
                     className="bg-white px-3 py-1 flex items-center text-amarillo cursor-pointer rounded"
-                    onClick={() => router.push(`/${categoria}`)}
+                    onClick={() => router.push(`/categoria/${categoria}`)}
                 ><i className='bx bx-chevron-left text-amarillo text-4xl'></i> Regresar</button>
                 <div className="mt-5 flex flex-col lg:grid lg:grid-cols-2 gap-5">
                     <Image
