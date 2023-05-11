@@ -159,6 +159,496 @@
                 "precio": 18.00,
                 "categoria": "panqueques"
             }
+        },
+        {
+            "producto": {
+                "id": 17,
+                "nombre": "Hashbrowns",
+                "imagen": "hash",
+                "descripcion": "Acompaña tus desayunos o almuerzo con nuestras deliciosas rueditas de papa con su exquisita textura y su sabor incomparable.",
+                "precio": 12.00,
+                "categoria": "extras"
+            }
+        },
+        {
+            "producto": {
+                "id": 18,
+                "nombre": "Papas Fritas Medianas",
+                "imagen": "papas_medianas",
+                "descripcion": "Las mejores acompañantes para tu plato fuerte. Deliciosas, calientitas y crujientes, no pueden faltar.",
+                "precio": 15.50,
+                "categoria": "extras"
+            }
+        },
+        {
+            "producto": {
+                "id": 19,
+                "nombre": "Papas Fritas Grandes",
+                "imagen": "papas_grandes",
+                "descripcion": "Las mejores acompañantes para tu plato fuerte. Deliciosas, calientitas y crujientes, no pueden faltar.",
+                "precio": 17.50,
+                "categoria": "extras"
+            }
+        },
+        {
+            "producto": {
+                "id": 20,
+                "nombre": "Aros de Cebolla Medianos",
+                "imagen": "aros_medianos",
+                "descripcion": "Delicioso acompañamiento para tu plato fuerte, disfruta de nuestros ricos aros de cebolla empanizados y crujientes, que le darán un toque diferente a tu combo.",
+                "precio": 15.50,
+                "categoria": "extras"
+            }
+        },
+        {
+            "producto": {
+                "id": 21,
+                "nombre": "Aros de Cebolla Grandes",
+                "imagen": "aros_grandes",
+                "descripcion": "Delicioso acompañamiento para tu plato fuerte, disfruta de nuestros ricos aros de cebolla empanizados y crujientes, que le darán un toque diferente a tu combo.",
+                "precio": 17.50,
+                "categoria": "extras"
+            }
+        },
+        {
+            "producto": {
+                "id": 22,
+                "nombre": "Cubetazo Papas para dos personas",
+                "imagen": "cubetazo_papas",
+                "descripcion": "Deliciosas papas fritas, la porción perfecta para compartir entre dos.",
+                "precio": 22.00,
+                "categoria": "extras"
+            }
+        },
+        {
+            "producto": {
+                "id": 23,
+                "nombre": "Cubetazo Aros de Cebolla para dos personas",
+                "imagen": "cubetazo_aros",
+                "descripcion": "Deliciosos aros de cebolla, la porción perfecta para compartir entre dos.",
+                "precio": 22.00,
+                "categoria": "extras"
+            }
+        },
+        {
+            "producto": {
+                "id": 24,
+                "nombre": "Cubetazo Mixto para dos personas",
+                "imagen": "cubetazo_mixto",
+                "descripcion": "Deliciosas papas fritas y aros de cebolla, la porción perfecta para compartir entre dos.",
+                "precio": 22.00,
+                "categoria": "extras"
+            }
+        },
+        {
+            "producto": {
+                "id": 25,
+                "nombre": "Jugo de Naranja",
+                "imagen": "jugo_naranja",
+                "descripcion": "",
+                "precio": 11.00,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 26,
+                "nombre": "Agua Pura",
+                "imagen": "agua_pura",
+                "descripcion": "",
+                "precio": 12.00,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 27,
+                "nombre": "Café 12oz",
+                "imagen": "cafe_negro",
+                "descripcion": "",
+                "precio": 15.00,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 28,
+                "nombre": "Café 12oz",
+                "imagen": "cafe_leche",
+                "descripcion": "",
+                "precio": 15.00,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 29,
+                "nombre": "Té Frío Lipton Limón",
+                "imagen": "te_limon",
+                "descripcion": "",
+                "precio": 13.90,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 30,
+                "nombre": "Té Frío Lipton Durazno",
+                "imagen": "te_durazno",
+                "descripcion": "",
+                "precio": 13.90,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 31,
+                "nombre": "Chocolate 8oz",
+                "imagen": "chocolate",
+                "descripcion": "",
+                "precio": 17.00,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 32,
+                "nombre": "Pepsi",
+                "imagen": "pepsi",
+                "descripcion": "",
+                "precio": 10.90,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 33,
+                "nombre": "7up",
+                "imagen": "7up",
+                "descripcion": "",
+                "precio": 10.90,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 34,
+                "nombre": "Pepsi Black",
+                "imagen": "pepsi_black",
+                "descripcion": "",
+                "precio": 10.90,
+                "categoria": "bebidas"
+            }
+        },
+        {
+            "producto": {
+                "id": 35,
+                "nombre": "Croissan'wich con hashbrowns y jugo",
+                "imagen": "combo_nino_1",
+                "descripcion": "Para empezar el día con mucha energía, tenemos lo mejor, un desayuno completo dentro de un delicioso croissant fresco y doradito, preparado con huevo y una lasca de queso americano derretido. Incluye hashbrown, bebida y juguete.",
+                "precio": 38.00,
+                "categoria": "ninos"
+            }
+        },
+        {
+            "producto": {
+                "id": 36,
+                "nombre": "Panqueques con jugo",
+                "imagen": "combo_nino_2",
+                "descripcion": "Tres deliciosos y calientitos panqueques. Puedes escoger el topping que gustes, chocolate, fresa o miel. Incluye hashbrown, jugo de naranja y juguete.",
+                "precio": 38.00,
+                "categoria": "ninos"
+            }
+        },
+        {
+            "producto": {
+                "id": 37,
+                "nombre": "Derretido con jugo y hashbrowns",
+                "imagen": "combo_nino_3",
+                "descripcion": "¿Te gusta el queso? Disfruta de todo el sabor, olor y textura de nuestro queso americano, derretido dentro de un pan tostadito y delicioso. Incluye hashbrown, bebida y juguete.",
+                "precio": 38.00,
+                "categoria": "ninos"
+            }
+        },
+        {
+            "producto": {
+                "id": 38,
+                "nombre": "Hershey's Pie",
+                "imagen": "hershey_pie",
+                "descripcion": "Disfruta de su rica base de chocolate crujiente con un delicioso relleno de mousse de chocolate cubierto con crema batida y chispas de chocolate HERSHEY'S®. Ideal para los amantes del chocolate.",
+                "precio": 20.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 39,
+                "nombre": "Shake de Oreo",
+                "imagen": "shake_oreo",
+                "descripcion": "Delicioso Shake de helado con galleta OREO.",
+                "precio": 22.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 40,
+                "nombre": "Pie de Manzana",
+                "imagen": "pie_manzana",
+                "descripcion": "Pie crujiente y calientito, relleno de manzana con un toque de canela.",
+                "precio": 12.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 41,
+                "nombre": "Pie de Queso",
+                "imagen": "pie_queso",
+                "descripcion": "El clásico pie crujiente y calientito relleno de un dulce y delicioso queso.",
+                "precio": 12.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 42,
+                "nombre": "Tostadas Francesas",
+                "imagen": "tostadas_francesas",
+                "descripcion": "Sin importar que horario sea disfruta de 5 tostadas francesas bañadas con canela y miel de maple.",
+                "precio": 15.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 43,
+                "nombre": "Shake de Oreo con Menta",
+                "imagen": "shake_oreo_menta",
+                "descripcion": "",
+                "precio": 22.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 44,
+                "nombre": "Shake de Fresa",
+                "imagen": "shake_fresa",
+                "descripcion": "Delicioso Shake de helado con sabor a fresa.",
+                "precio": 20.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 45,
+                "nombre": "Shake de Chocolate",
+                "imagen": "shake_chocolate",
+                "descripcion": "Delicioso Shake de helado con sabor a Chocolate.",
+                "precio": 20.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 46,
+                "nombre": "Shake de Café",
+                "imagen": "shake_cafe",
+                "descripcion": "Delicioso Shake de helado con sabor a Cafe",
+                "precio": 20.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 47,
+                "nombre": "Shake Café Mocca",
+                "imagen": "shake_mocca",
+                "descripcion": "Delicioso Shake de helado con sabor a cafe mocca.",
+                "precio": 20.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 48,
+                "nombre": "Shake de Chocomenta",
+                "imagen": "shake_chocomenta",
+                "descripcion": "Delicioso Shake de helado con sabor a Chocomenta",
+                "precio": 20.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 49,
+                "nombre": "Shake de Vainilla",
+                "imagen": "shake_vainilla",
+                "descripcion": "Delicioso Shake de helado con sabor a Vainilla.",
+                "precio": 20.00,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 50,
+                "nombre": "BK Cookie con chocolate chips",
+                "imagen": "galleta_chocolate_chips",
+                "descripcion": "Deliciosas galletas OTIS SPUNKMEYER® con chips de chocolate derretido recién salidas del horno.",
+                "precio": 5.50,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 51,
+                "nombre": "BK Cookie con Macadamia",
+                "imagen": "galleta_macadamia",
+                "descripcion": "Deliciosas galleta OTIS SPUNKMEYER® con chips de chocolate blanco.",
+                "precio": 5.50,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 52,
+                "nombre": "BK Shaker de Jamón",
+                "imagen": "shaker_jamon",
+                "descripcion": "Fresca lechuga, zanahoria y tomate acompañados de cuadritos de jamón y queso rallado en un vaso especial, para que puedas mezclar todos los ingredientes con tu aderezo favorito Mil Islas, Italiano o  Ranch.",
+                "precio": 19.90,
+                "categoria": "postres"
+            }
+        },
+        {
+            "producto": {
+                "id": 53,
+                "nombre": "Crispy Chicken",
+                "imagen": "crispy_chicken",
+                "descripcion": "100% pechuga de pollo empanizada, lechuga fresca, tomate y mayonesa, en un pan de papa tipo brioche.",
+                "precio": 36.50,
+                "categoria": "pollo"
+            }
+        },
+        {
+            "producto": {
+                "id": 54,
+                "nombre": "King de Pollo",
+                "imagen": "king_pollo",
+                "descripcion": "Para los amantes del pollo les traemos una deliciosa torta de pollo empanizada y sazonada especialmente para ti con lechuga y mayonesa en pan especial.",
+                "precio": 23.50,
+                "categoria": "pollo"
+            }
+        },
+        {
+            "producto": {
+                "id": 55,
+                "nombre": "King de Pollo Americano",
+                "imagen": "king_americano",
+                "descripcion": "Carne blanca de pollo empanizada, acompañada de fresca lechuga, tomate, queso americano y mayonesa en nuestro delicioso pan especial.",
+                "precio": 25.80,
+                "categoria": "pollo"
+            }
+        },
+        {
+            "producto": {
+                "id": 56,
+                "nombre": "King de Pollo Frances",
+                "imagen": "king_frances",
+                "descripcion": "Carne blanca de pollo, crujiente y empanizada a la perfección, acompañada de queso suizo, jamón y mayonesa en un pan especial con el toque francés que lo hace una opción exquisita.",
+                "precio": 25.80,
+                "categoria": "pollo"
+            }
+        },
+        {
+            "producto": {
+                "id": 57,
+                "nombre": "King de Pollo Italiano",
+                "imagen": "king_italiano",
+                "descripcion": "Carne blanca de pollo empanizada, acompañada de queso mozzarella y salsa italiana. Una mezcla diferente que te encantará.",
+                "precio": 25.80,
+                "categoria": "pollo"
+            }
+        },
+        {
+            "producto": {
+                "id": 58,
+                "nombre": "4 BK Nuggets",
+                "imagen": "nuggets_pequeño",
+                "descripcion": "Crujientes por fuera y jugosos por dentro, simplemente deliciosos. Son ideales para dipearlos en tu salsa favorita",
+                "precio": 9.90,
+                "categoria": "pollo"
+            }
+        },
+        {
+            "producto": {
+                "id": 59,
+                "nombre": "10 BK Nuggets",
+                "imagen": "nuggets_mediano",
+                "descripcion": "Crujientes por fuera y jugosos por dentro, simplemente deliciosos. Son ideales para dipearlos en tu salsa favorita",
+                "precio": 24.00,
+                "categoria": "pollo"
+            }
+        },
+        {
+            "producto": {
+                "id": 60,
+                "nombre": "35 BK Nuggets",
+                "imagen": "nuggets_grande",
+                "descripcion": "Crujientes por fuera y jugosos por dentro, simplemente deliciosos. Son ideales para dipearlos en tu salsa favorita",
+                "precio": 76.90,
+                "categoria": "pollo"
+            }
+        },
+        {
+            "producto": {
+                "id": 61,
+                "nombre": "King de Jamón y Queso",
+                "imagen": "king_jamon",
+                "descripcion": "Deliciosas lascas de jamón y queso americano acompañadas de crujiente lechuga, frescos tomates, y un toque de mayonesa.",
+                "precio": 25.80,
+                "categoria": "otros"
+            }
+        },
+        {
+            "producto": {
+                "id": 62,
+                "nombre": "King de Pescado",
+                "imagen": "king_pescado",
+                "descripcion": "Crujiente filete de pescado \"Alaskan Pollock\" empanizado con panko, acompañado de lechuga y salsa tártara, en un pan de papa tipo brioche.",
+                "precio": 31.00,
+                "categoria": "otros"
+            }
+        },
+        {
+            "producto": {
+                "id": 63,
+                "nombre": "Derretino",
+                "imagen": "derretino",
+                "descripcion": "¿Te gusta el queso? Disfruta de todo el sabor, olor y textura de nuestro queso americano, derretido dentro de un pan tostadito y delicioso.",
+                "precio": 12.00,
+                "categoria": "otros"
+            }
+        },
+        {
+            "producto": {
+                "id": 64,
+                "nombre": "Avena con Agua",
+                "imagen": "avena_agua",
+                "descripcion": "Avena Quaker, agua, azúcar y canela",
+                "precio": 13.50,
+                "categoria": "otros"
+            }
+        },
+        {
+            "producto": {
+                "id": 65,
+                "nombre": "Avena con Leche",
+                "imagen": "avena_leche",
+                "descripcion": "Avena Quaker, leche, azúcar y canela",
+                "precio": 15.50,
+                "categoria": "otros"
+            }
         }
     ],
     "categorias": [
