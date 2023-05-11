@@ -1,6 +1,6 @@
 import Layout from "@/layout/Layout"
 import Producto from "@/components/Producto";
-import useBk from "../../hooks/useBk";
+import useBk from "../../../hooks/useBk";
 
 export default function Croissants() {
 
