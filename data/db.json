@@ -623,8 +623,8 @@
         {
             "producto": {
                 "id": 63,
-                "nombre": "Derretino",
-                "imagen": "derretino",
+                "nombre": "Derretido",
+                "imagen": "derretido",
                 "descripcion": "¿Te gusta el queso? Disfruta de todo el sabor, olor y textura de nuestro queso americano, derretido dentro de un pan tostadito y delicioso.",
                 "precio": 12.00,
                 "categoria": "otros"
