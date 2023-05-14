@@ -16,6 +16,7 @@ const BkProvider = ({ children }) => {
     const [postres, setPostres] = useState([]);
     const [ensaladas, setEnsaladas] = useState([]);
     const [pollo, setPollo] = useState([]);
+    const [otros, setOtros] = useState([]);
 
     /*
         todo: cambiar imagenes jpg a formato webp, (chapin, croissants, muffins y panqueques) y conseguir imagenes de alta calidad
@@ -114,6 +115,15 @@ const BkProvider = ({ children }) => {
         obtenerPollo();
     }, [])
 
+    const obtenerOtros = async () => {
+        const { data } = await axios('http://localhost:4000/productos?producto.categoria=otros');
+        setOtros(data);
+    }
+
+    useEffect(() => {
+        obtenerOtros();
+    }, [])
+
 
     // Funciones Categorias
     const obtenerCategorias = async () => {
@@ -138,6 +148,7 @@ const BkProvider = ({ children }) => {
                 postres,
                 ensaladas,
                 pollo,
+                otros,
                 categorias
             }}
         >
