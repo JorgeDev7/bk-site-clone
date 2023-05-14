@@ -34,7 +34,7 @@ export default function croissant({ data }) {
                         <div className="flex items-center justify-between my-10">
                             <div className="flex items-center rounded text-center">
                                 <div className="border-s border-t border-b rounded-s border-gray-500 px-2 py-1 text-naranja text-2xl w-10 cursor-pointer"><i className='bx bx-minus' ></i></div>
-                                <div className="border border-gray-500 px-2 py-1 text-2xl w-10">1</div>
+                                <div className="border border-gray-500 text-grisOscuro px-2 py-1 text-2xl w-10">1</div>
                                 <div className="border-e border-t border-b rounded-e border-gray-500 px-2 py-1 text-naranja text-2xl w-10 cursor-pointer"><i className='bx bx-plus' ></i></div>
                             </div>
 
