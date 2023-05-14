@@ -14,6 +14,7 @@ const BkProvider = ({ children }) => {
     const [bebidas, setBebidas] = useState([]);
     const [ninos, setNinos] = useState([]);
     const [postres, setPostres] = useState([]);
+    const [ensaladas, setEnsaladas] = useState([]);
 
     /*
         todo: cambiar imagenes jpg a formato webp, (chapin, croissants, muffins y panqueques) y conseguir imagenes de alta calidad
@@ -94,6 +95,15 @@ const BkProvider = ({ children }) => {
         obtenerPostres();
     }, [])
 
+    const obtenerEnsaldas = async () => {
+        const { data } = await axios('http://localhost:4000/productos?producto.categoria=ensaladas');
+        setEnsaladas(data);
+    }
+
+    useEffect(() => {
+        obtenerEnsaldas();
+    }, [])
+
 
     // Funciones Categorias
     const obtenerCategorias = async () => {
@@ -116,6 +126,7 @@ const BkProvider = ({ children }) => {
                 bebidas,
                 ninos,
                 postres,
+                ensaladas,
                 categorias
             }}
         >
