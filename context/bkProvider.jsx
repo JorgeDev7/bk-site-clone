@@ -18,10 +18,6 @@ const BkProvider = ({ children }) => {
     const [pollo, setPollo] = useState([]);
     const [otros, setOtros] = useState([]);
 
-    /*
-        todo: cambiar imagenes jpg a formato webp, (chapin, croissants, muffins y panqueques) y conseguir imagenes de alta calidad
-    */
-
     //State para categorias
     const [categorias, setCategorias] = useState([]);
 
