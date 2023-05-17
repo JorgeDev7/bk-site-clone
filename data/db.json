@@ -705,37 +705,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "3248-8802"
@@ -747,37 +754,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "5:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "5:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "5:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "5:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "5:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "5:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -789,37 +803,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -831,37 +852,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -873,37 +901,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "00:30"
+                    "fin": "00:30",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -915,37 +950,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "5:00",
-                    "fin": "01:00"
+                    "fin": "01:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "5:00",
-                    "fin": "01:00"
+                    "fin": "01:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "5:00",
-                    "fin": "01:00"
+                    "fin": "01:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "5:00",
-                    "fin": "01:00"
+                    "fin": "01:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "5:00",
-                    "fin": "02:00"
+                    "fin": "02:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "5:00",
-                    "fin": "2:00"
+                    "fin": "2:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "01:00"
+                    "fin": "01:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -957,37 +999,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "5:30",
-                    "fin": "03:00"
+                    "fin": "03:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "5:30",
-                    "fin": "03:00"
+                    "fin": "03:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -999,37 +1048,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "5:30",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -1041,37 +1097,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "7:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "7:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "7:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "7:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "7:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "7:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "7:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -1089,37 +1152,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "7:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -1131,37 +1201,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:30",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:30",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:30",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:30",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:30",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:30",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "7:00",
-                    "fin": "20:00"
+                    "fin": "20:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2385-1440"
@@ -1173,37 +1250,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2285-1353"
@@ -1215,27 +1299,32 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "03:00"
+                    "fin": "03:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "03:00"
+                    "fin": "03:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
@@ -1246,7 +1335,8 @@
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -1258,37 +1348,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "00:00"
+                    "fin": "00:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2485-7865"
@@ -1300,37 +1397,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -1342,37 +1446,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "23:00"
+                    "fin": "23:00",
+                    "nota": ""
                 }
             ],
             "telefono": ""
@@ -1384,37 +1495,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "9:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "9:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "9:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "9:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "9:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "9:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "9:00",
-                    "fin": "21:00"
+                    "fin": "21:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
@@ -1426,37 +1544,44 @@
                 {
                     "dia": "lunes",
                     "inicio": "6:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "martes",
                     "inicio": "6:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "miércoles",
                     "inicio": "6:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "jueves",
                     "inicio": "6:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "viernes",
                     "inicio": "6:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "sábado",
                     "inicio": "6:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 },
                 {
                     "dia": "domingo",
                     "inicio": "6:00",
-                    "fin": "22:00"
+                    "fin": "22:00",
+                    "nota": ""
                 }
             ],
             "telefono": "2200-0000"
