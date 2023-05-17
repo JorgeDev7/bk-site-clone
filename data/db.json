@@ -696,5 +696,770 @@
             "categoria": "Otros",
             "url": "otros"
         }
+    ],
+    "ubicaciones": [
+        {
+            "id": 1,
+            "direccion": "Av. Petapa 31-56, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "3248-8802"
+        },
+        {
+            "id": 2,
+            "direccion": "Blvr. Principal de Cdad. San Cristóbal 18-95, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:30",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 3,
+            "direccion": "32 calle Aguilar Batres",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 4,
+            "direccion": "Calzada Roosevelt 22-43, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 5,
+            "direccion": "Calzada Roosevelt, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:30"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 6,
+            "direccion": "Boulevar Liberación, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "01:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "01:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "01:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "01:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "02:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "5:00",
+                    "hora-fin": "2:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "01:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 7,
+            "direccion": "Calzada Roosevelt 35-68, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "03:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "03:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 8,
+            "direccion": "Avenida Las Americas, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "5:30",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 9,
+            "direccion": "7av 2a Calle zona 4, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "22:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 10,
+            "direccion": "22 Avenida 170, Cdad. de Guatemala, CC. Miraflores",
+            "horarios": [],
+            "telefono": ""
+        },
+        {
+            "id": 11,
+            "direccion": "Centro Comercial Plaza Atanasio Tzul, Av. Petapa 51-57, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 12,
+            "direccion": "6a Av 0-60 CC Zona 4 Locales 100-101,, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:30",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:30",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:30",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:30",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:30",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:30",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "7:00",
+                    "hora-fin": "20:00"
+                }
+            ],
+            "telefono": "2385-1440"
+        },
+        {
+            "id": 13,
+            "direccion": "Organismo Judicial, Edificio El Jade, 7A Avenida 20-76, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "21:00"
+                }
+            ],
+            "telefono": "2285-1353"
+        },
+        {
+            "id": 14,
+            "direccion": "Blvd. los Proceres 12, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "03:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "03:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "",
+                    "hora-fin": "",
+                    "nota": "Cerrado"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 15,
+            "direccion": "Calz. San Juan, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "00:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2485-7865"
+        },
+        {
+            "id": 16,
+            "direccion": "zona 5, 30 Calle 27, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 17,
+            "direccion": "zona 19, 11 Calle, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "23:00"
+                }
+            ],
+            "telefono": ""
+        },
+        {
+            "id": 18,
+            "direccion": "Calz. San Juan 14-06, Mixco",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "9:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "9:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "9:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "9:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "9:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "9:00",
+                    "hora-fin": "21:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "9:00",
+                    "hora-fin": "21:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        },
+        {
+            "id": 19,
+            "direccion": "6av 10a Calle zona 1, Cdad. de Guatemala",
+            "horarios": [
+                {
+                    "dia": "lunes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "martes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "miércoles",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "jueves",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "viernes",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "sábado",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "22:00"
+                },
+                {
+                    "dia": "domingo",
+                    "hora-inicio": "6:00",
+                    "hora-fin": "22:00"
+                }
+            ],
+            "telefono": "2200-0000"
+        }
     ]
 }
