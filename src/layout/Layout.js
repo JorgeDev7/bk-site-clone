@@ -1,5 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
+import Link from "next/link";
 import Categoria from "@/components/Categoria";
 import { useRouter } from "next/router"
 import { Poppins, Montserrat } from "next/font/google";
@@ -93,11 +94,11 @@ export default function Layout({ children, pagina }) {
                     <nav className={`mt-10 lg:mt-0 ${active ? 'opacity-100 pointer-events-auto delay-200' : 'opacity-0 pointer-events-none'} transition-opacity lg:opacity-100 lg:pointer-events-auto`}>
                         <ul className="space-y-3 lg:space-y-0 lg:flex items-center gap-6">
                             <li className="border-b pb-2 lg:pb-0 lg:border-0 lg:relative">
-                                <a
+                                <Link
                                     className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="#"
                                     onClick={handleDropdown}
-                                >Menú</a>
+                                >Menú</Link>
 
                                 <div className={`border-t lg:border-t-0 ${open ? 'block' : 'hidden'} lg:absolute lg:-left-4 lg:top-11 lg:bg-white ml-5 lg:ml-0 lg:shadow-menu`}>
                                     <ul className="lg:pl-0 lg:my-3">
@@ -111,28 +112,28 @@ export default function Layout({ children, pagina }) {
                                 </div>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
-                                <a
+                                <Link
                                     className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/ubicaciones"
-                                >Ubicaciones</a>
+                                >Ubicaciones</Link>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
-                                <a
+                                <Link
                                     className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/nuevo"
-                                >Lo nuevo</a>
+                                >Lo nuevo</Link>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
-                                <a
+                                <Link
                                     className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/ordenes"
-                                >Mis Órdenes</a>
+                                >Mis Órdenes</Link>
                             </li>
                             <li className="border-b pb-2 lg:pb-0 lg:border-0">
-                                <a
+                                <Link
                                     className={`text-[#666] lg:text-amarillo hover:text-rojo transition-colors ${poppins.variable} font-poppins font-black text-lg uppercase`}
                                     href="/direcciones"
-                                >Mis direcciones</a>
+                                >Mis direcciones</Link>
                             </li>
 
                             <li className="border-b lg:border-0 lg:relative">
