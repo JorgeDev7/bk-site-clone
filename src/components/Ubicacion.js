@@ -20,7 +20,7 @@ export default function Ubicacion({ datos }) {
                         {horarios?.map(horario => (
                             <li
                                 key={Math.random()}
-                            ><p className="font-bold text-grisOscuro inline">{horario.dia}</p>:{' '}{horario.nota}
+                            ><p className="font-bold text-grisOscuro inline">{horario.dia}</p>:{' '}<span className="text-gray-400">{horario.nota}</span>
                                 <span className="text-gray-400">{horario.inicio}</span> <span className={`text-gray-400 ${horario.nota === '' ? 'before:inline-block before:w-2 before:h-0.5 before:bg-gray-400 before:mb-1 before:mr-1.5' : ''}`}>{horario.fin}</span></li>
                         ))}
                     </ul>
