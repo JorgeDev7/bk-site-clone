@@ -21,6 +21,9 @@ const BkProvider = ({ children }) => {
     //State para categorias
     const [categorias, setCategorias] = useState([]);
 
+    //State para ubicaciones
+    const [ubicaciones, setUbicaciones] = useState([]);
+
     const obtenerCroissant = async () => {
         const { data } = await axios('http://localhost:4000/productos?producto.categoria=croissants');
         setCroissants(data);
@@ -131,6 +134,16 @@ const BkProvider = ({ children }) => {
         obtenerCategorias();
     }, [])
 
+    // Funciones Ubicaciones
+    const obtenerUbicaciones = async () => {
+        const { data } = await axios('http://localhost:4000/ubicaciones');
+        setUbicaciones(data);
+    }
+
+    useEffect(() => {
+        obtenerUbicaciones();
+    }, [])
+
     return (
         <BkContext.Provider
             value={{
@@ -145,7 +158,8 @@ const BkProvider = ({ children }) => {
                 ensaladas,
                 pollo,
                 otros,
-                categorias
+                categorias,
+                ubicaciones,
             }}
         >
             {children}
