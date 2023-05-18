@@ -45,7 +45,7 @@ export default function Home() {
               height={700}
               width={700}
               alt='plato con croassint tortilla, frijoles, platano frito, huevos con salsa y jamon'
-              src="/assets/images/lo-nuevo/bk-chapin-jamon.jpg"
+              src="/assets/images/lo-nuevo/bk_chapin_jamon.webp"
               className="rounded-box mx-auto max-md:w-full h-full object-cover"
               loading='eager'
             />
@@ -59,7 +59,7 @@ export default function Home() {
               height={700}
               width={700}
               alt='porcion de panqueques con salchica'
-              src="/assets/images/lo-nuevo/panqueques-salchicha.jpg"
+              src="/assets/images/lo-nuevo/panqueques_salchicha.webp"
               className="rounded-box mx-auto max-md:w-full h-full object-cover"
               loading='eager'
             />
@@ -73,7 +73,7 @@ export default function Home() {
               height={700}
               width={700}
               alt='hershey pie'
-              src="/assets/images/lo-nuevo/hersheys-pie.jpg"
+              src="/assets/images/lo-nuevo/hersheys_pie.webp"
               className="rounded-box mx-auto max-md:w-full h-full object-cover"
               loading='eager'
             />
@@ -87,7 +87,7 @@ export default function Home() {
               height={700}
               width={700}
               alt='porcion tostadas a la francesa'
-              src="/assets/images/lo-nuevo/tostadas-francesas.jpg"
+              src="/assets/images/lo-nuevo/tostadas_francesas.webp"
               className="rounded-box mx-auto max-md:w-full h-full object-cover"
               loading='eager'
             />
@@ -101,7 +101,7 @@ export default function Home() {
               height={700}
               width={700}
               alt='shake oreo'
-              src="/assets/images/lo-nuevo/shake-oreo.jpg"
+              src="/assets/images/lo-nuevo/shake_oreo.webp"
               className="rounded-box mx-auto max-md:w-full h-full object-cover"
               loading='eager'
             />
