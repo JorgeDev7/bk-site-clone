@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import { Roboto, Satisfy } from 'next/font/google'
 import Layout from '@/layout/Layout';
 
@@ -37,54 +38,74 @@ export default function Home() {
 
       <div className="carousel carousel-center p-4 space-x-4 rounded-box mx-auto mt-10">
         <div className="carousel-item">
-          <Image
-            height={700}
-            width={700}
-            alt='plato con croassint tortilla, frijoles, platano frito, huevos con salsa y jamon'
-            src="/assets/images/lo-nuevo/bk-chapin-jamon.jpg"
-            className="rounded-box mx-auto max-md:w-full h-full object-cover"
-            loading='eager'
-          />
+          <Link
+            href="/producto/1"
+          >
+            <Image
+              height={700}
+              width={700}
+              alt='plato con croassint tortilla, frijoles, platano frito, huevos con salsa y jamon'
+              src="/assets/images/lo-nuevo/bk-chapin-jamon.jpg"
+              className="rounded-box mx-auto max-md:w-full h-full object-cover"
+              loading='eager'
+            />
+          </Link>
         </div>
         <div className="carousel-item">
-          <Image
-            height={700}
-            width={700}
-            alt='porcion de panqueques con salchica'
-            src="/assets/images/lo-nuevo/panqueques-salchicha.jpg"
-            className="rounded-box mx-auto max-md:w-full h-full object-cover"
-            loading='eager'
-          />
+          <Link
+            href="/producto/14"
+          >
+            <Image
+              height={700}
+              width={700}
+              alt='porcion de panqueques con salchica'
+              src="/assets/images/lo-nuevo/panqueques-salchicha.jpg"
+              className="rounded-box mx-auto max-md:w-full h-full object-cover"
+              loading='eager'
+            />
+          </Link>
         </div>
         <div className="carousel-item">
-          <Image
-            height={700}
-            width={700}
-            alt='hershey pie'
-            src="/assets/images/lo-nuevo/hersheys-pie.jpg"
-            className="rounded-box mx-auto max-md:w-full h-full object-cover"
-            loading='eager'
-          />
+          <Link
+            href="/producto/38"
+          >
+            <Image
+              height={700}
+              width={700}
+              alt='hershey pie'
+              src="/assets/images/lo-nuevo/hersheys-pie.jpg"
+              className="rounded-box mx-auto max-md:w-full h-full object-cover"
+              loading='eager'
+            />
+          </Link>
         </div>
         <div className="carousel-item">
-          <Image
-            height={700}
-            width={700}
-            alt='porcion tostadas a la francesa'
-            src="/assets/images/lo-nuevo/tostadas-francesas.jpg"
-            className="rounded-box mx-auto max-md:w-full h-full object-cover"
-            loading='eager'
-          />
+          <Link
+            href="/producto/42"
+          >
+            <Image
+              height={700}
+              width={700}
+              alt='porcion tostadas a la francesa'
+              src="/assets/images/lo-nuevo/tostadas-francesas.jpg"
+              className="rounded-box mx-auto max-md:w-full h-full object-cover"
+              loading='eager'
+            />
+          </Link>
         </div>
         <div className="carousel-item">
-          <Image
-            height={700}
-            width={700}
-            alt='shake oreo'
-            src="/assets/images/lo-nuevo/shake-oreo.jpg"
-            className="rounded-box mx-auto max-md:w-full h-full object-cover"
-            loading='eager'
-          />
+          <Link
+            href="/producto/39"
+          >
+            <Image
+              height={700}
+              width={700}
+              alt='shake oreo'
+              src="/assets/images/lo-nuevo/shake-oreo.jpg"
+              className="rounded-box mx-auto max-md:w-full h-full object-cover"
+              loading='eager'
+            />
+          </Link>
         </div>
       </div>
 
