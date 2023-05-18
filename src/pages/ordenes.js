@@ -6,7 +6,10 @@ export default function ordenes() {
         <Layout
             pagina='Mis Órdenes'
         >
-            <Preview />
+            <Preview
+                titulo="Órdenes"
+                texto="Inicia sesión para ver tus órdenes"
+            />
         </Layout>
     )
 }
