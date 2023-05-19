@@ -17,7 +17,7 @@ export default function Item() {
                         alt={`imagen producto ${extra.producto.nombre}`} />
                     <button
                         type="button"
-                        className=" bg-rojo hover:bg-ambar-500 transition-colors text-white py-2 px-4 w-max mx-auto mt-5 xl:w-auto rounded"
+                        className=" bg-rojo hover:bg-amarillo transition-colors text-white py-2 px-4 w-max mx-auto mt-5 xl:w-auto rounded"
                     ><i className='bx bxs-shopping-bag' ></i> Agregar al carrito</button>
                 </div>
             ))}
