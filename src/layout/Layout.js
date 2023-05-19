@@ -226,7 +226,7 @@ export default function Layout({ children, pagina }) {
                 {children}
             </main>
 
-            <footer className={`container px-5 mx-auto mt-16 text-center ${montserrat.variable} font-sans pb-10`}>
+            <footer className={`container px-5 mx-auto mt-32 text-center ${montserrat.variable} font-sans pb-10`}>
                 <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-4 md:gap-0">
                     <div className="mb-5 lg:flex items-center gap-5">
                         <Image
