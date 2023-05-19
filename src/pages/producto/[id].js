@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Layout from "@/layout/Layout"
+import Item from "@/components/Item";
 import axios from "axios"
 
 export default function croissant({ data }) {
@@ -49,6 +50,12 @@ export default function croissant({ data }) {
                         ><i className='bx bxs-shopping-bag' ></i> Agregar al carrito</button>
                     </div>
                 </div>
+            </div>
+
+            <h2 className="uppercase text-marron text-xl py-10">Pensamos que te puede gustar con:</h2>
+
+            <div className="carousel carousel-center rounded-box">
+                <Item />
             </div>
         </Layout>
     )
