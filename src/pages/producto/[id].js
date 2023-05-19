@@ -55,7 +55,7 @@ export default function croissant({ data }) {
 
             <h2 className="uppercase text-marron text-xl py-10">Pensamos que te puede gustar con:</h2>
 
-            <div className="carousel carousel-center">
+            <div className="carousel">
                 {id <= 12 ? (
                     <Item />
                 ) : (
