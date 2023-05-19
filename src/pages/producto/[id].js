@@ -2,11 +2,12 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import Layout from "@/layout/Layout"
 import Item from "@/components/Item";
+import Item2 from "@/components/Item2";
 import axios from "axios"
 
 export default function croissant({ data }) {
 
-    const { descripcion, imagen, precio, nombre, categoria } = data[0].producto;
+    const { descripcion, imagen, precio, nombre, categoria, id } = data[0].producto;
 
     const router = useRouter();
 
@@ -55,7 +56,11 @@ export default function croissant({ data }) {
             <h2 className="uppercase text-marron text-xl py-10">Pensamos que te puede gustar con:</h2>
 
             <div className="carousel carousel-center rounded-box">
-                <Item />
+                {id <= 12 ? (
+                    <Item />
+                ) : (
+                    <Item2 />
+                )}
             </div>
         </Layout>
     )
