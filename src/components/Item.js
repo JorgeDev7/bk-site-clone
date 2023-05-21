@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import useBk from '../../hooks/useBk'
 
 export default function Item() {
@@ -11,10 +12,14 @@ export default function Item() {
                     key={extra.producto.id}
                     className='flex flex-col justify-center'
                 >
-                    <img
-                        src={`/assets/images/${extra.producto.categoria}/${extra.producto.imagen}.webp`}
-                        className="w-80"
-                        alt={`imagen producto ${extra.producto.nombre}`} />
+                    <Link
+                        href={`/producto/${extra.producto.id}`}
+                    >
+                        <img
+                            src={`/assets/images/${extra.producto.categoria}/${extra.producto.imagen}.webp`}
+                            className="w-80"
+                            alt={`imagen producto ${extra.producto.nombre}`} />
+                    </Link>
                     <button
                         type="button"
                         className=" bg-rojo hover:bg-amarillo transition-colors text-white py-2 px-4 w-max mx-auto mt-5 xl:w-auto rounded"
