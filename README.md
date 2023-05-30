@@ -19,10 +19,10 @@ npm run db
 ```
 This Script give you some localhosts URL: 
 
-  [http://localhost:4000](http://localhost:4000)
-  [http://localhost:4000/productos](http://localhost:4000/productos)
-  [http://localhost:4000/categorias](http://localhost:4000/categorias)
-  [http://localhost:4000/ubicaciones](http://localhost:4000/ubicaciones)
+  - [http://localhost:4000](http://localhost:4000)
+  - [http://localhost:4000/productos](http://localhost:4000/productos)
+  - [http://localhost:4000/categorias](http://localhost:4000/categorias)
+  - [http://localhost:4000/ubicaciones](http://localhost:4000/ubicaciones)
   
 Each of these endpoints is equals to the data in de data/data.json.
 
